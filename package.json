@@ -1,0 +1,22 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.3.2",
+    "@types/node": "^22.5.4",
+    "@vitest/coverage-v8": "2.1.4",
+    "eslint": "^9.10.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.4"
+  }
+}
